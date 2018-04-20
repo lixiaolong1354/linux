@@ -10,5 +10,7 @@ set tabstop=4
 set et
 set encoding=utf-8
 inoremap ( ()<esc>ha
-inoremap [ []
+inoremap [ []<esc>ha
 inoremap { {<cr><cr>}<esc>ka
+inoremap " ""<esc>ka
+inoremap ' ''<esc>ka
